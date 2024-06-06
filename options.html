@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Settings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="settingsBody">
+  <h1>Extension Settings</h1>
+  <form id="settings-form">
+    <label for="sheet-url">Google Sheets URL:</label>
+    <input type="url" id="sheet-url" name="sheet-url" required>
+    <label for="sheet-url">Google Sheets API Key:</label>
+    <input type="text" id="api-key" name="api-key" required>
+    <button type="submit">Save</button>
+  </form>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>
